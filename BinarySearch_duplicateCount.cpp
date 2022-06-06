@@ -17,7 +17,7 @@ int bs(int ar[],int l,int r,int key)
     return 0;                                           //return key element is not present(0)
 
     if(ar[mid]==key)                                    //if key element is present in mid index
-    return 1;                                           //return key element is present(1)
+    return mid;                                           //return key element is present(1)
 
     else if(ar[mid]>key)                                //else if key element is present before mid index
     return bs(ar,l,mid-1,key);                          //recursion for elements before mid index
