@@ -1,5 +1,6 @@
-//Given an array of nonnegative integers, design an algorithm and a program to count 
-//the number of pairs of integers such that their difference is equal to a given key, K.
+//Given an unsorted array of positive integers, design an algorithm and implement it using a
+//program to find whether there are any duplicate elements in the array or not. (use sorting)
+//(Time Complexity = O(n log n))
 
 #include<iostream>
 #define fori(m,n) for(int i=m;i<n;i++)              //macro
